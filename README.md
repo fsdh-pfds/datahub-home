@@ -1,1 +1,1 @@
-# GC Cloud One: Aurora
+# README
