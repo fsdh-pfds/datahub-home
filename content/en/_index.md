@@ -1,9 +1,11 @@
 ---
-title: "Aurora"
-description: "Modern service delivery for all Canadians."
-date: 2024-10-21
+title: "Federal Science DataHub"
+description: "You do the science. We do the rest."
+date: 2025-03-06
 draft: false
 ---
+
+<link rel="stylesheet" href="https://aurora.gccloudone.alpha.canada.ca/scss/main.css">
 
 ## Start using the platform
 
@@ -71,5 +73,4 @@ draft: false
 heading="Help us improve"
 paragraph="Have questions, suggestions, or ideas for improvement? Share your feedback to help us refine Aurora and better meet your needs."
 buttonText="Give feedback"
-buttonLink="/contact"
->}}
+buttonLink="/contact" >}}
