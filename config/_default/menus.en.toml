@@ -2,7 +2,7 @@
 
 # main menu
 [[main]]
-name = "GC Cloud One: Aurora"
+name = "Federal Science DataHub"
 url = "/"
 weight = 1
 identifier = "home"
@@ -12,53 +12,48 @@ name = "Platform"
 url = "/platform"
 weight = 5
 
-  [[main]]
-  name = "Proposal"
-  parent = "Platform"
-  url = "/proposal"
-  weight = 1
+[[main]]
+name = "Proposal"
+parent = "Platform"
+url = "/proposal"
+weight = 1
 
-  [[main]]
-  name = "Vision"
-  parent = "Platform"
-  url = "/vision"
-  weight = 3
+[[main]]
+name = "Vision"
+parent = "Platform"
+url = "/vision"
+weight = 3
 
-  [[main]]
-  name = "Architectural Plan"
-  parent = "Platform"
-  url = "/architecture"
-  weight = 5
+[[main]]
+name = "Architectural Plan"
+parent = "Platform"
+url = "/architecture"
+weight = 5
 
-  [[main]]
-  name = "Components"
-  parent = "Platform"
-  url = "/components"
-  weight = 5
+[[main]]
+name = "Components"
+parent = "Platform"
+url = "/components"
+weight = 5
 
 [[main]]
 name = "Community"
 url = "/community"
 weight = 10
 
-  [[main]]
-  name = "Get involved"
-  parent = "Community"
-  url = "/get-involved"
-  weight = 1
+[[main]]
+name = "Get involved"
+parent = "Community"
+url = "/get-involved"
+weight = 1
 
-  [[main]]
-  name = "Rules of Engagement"
-  parent = "Community"
-  url = "/rules-of-engagement"
-  weight = 1
+[[main]]
+name = "Rules of Engagement"
+parent = "Community"
+url = "/rules-of-engagement"
+weight = 1
 
 [[main]]
 name = "Contact us"
 url = "/contact"
 weight = 15
-
-[[breadcrumb]]
-name = "GC Cloud One"
-url = "https://gccloudone.ca"
-weight = 1

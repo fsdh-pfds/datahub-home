@@ -2,7 +2,7 @@
 
 # main menu
 [[main]]
-name = "Service infonuagique unifié du GC: Aurore"
+name = "Plateforme fédérale de données scientifiques"
 url = "/fr"
 weight = 1
 identifier = "acceuil"
@@ -12,41 +12,36 @@ name = "Plate-forme"
 url = "/fr/platform"
 weight = 5
 
-  [[main]]
-  name = "Proposition"
-  parent = "Plate-forme"
-  url = "/fr/proposition"
-  weight = 1
+[[main]]
+name = "Proposition"
+parent = "Plate-forme"
+url = "/fr/proposition"
+weight = 1
 
-  [[main]]
-  name = "Composants"
-  parent = "Plate-forme"
-  url = "/fr/components"
-  weight = 5
+[[main]]
+name = "Composants"
+parent = "Plate-forme"
+url = "/fr/components"
+weight = 5
 
 [[main]]
 name = "Communauté"
 url = "/fr/communaute"
 weight = 10
 
-  [[main]]
-  name = "Participez"
-  url = "/fr/impliquez-vous"
-  parent = "Communauté"
-  weight = 1
+[[main]]
+name = "Participez"
+url = "/fr/impliquez-vous"
+parent = "Communauté"
+weight = 1
 
-  [[main]]
-  name = "Règles d'engagement"
-  parent = "Communauté"
-  url = "/fr/regles-dengagement"
-  weight = 1
+[[main]]
+name = "Règles d'engagement"
+parent = "Communauté"
+url = "/fr/regles-dengagement"
+weight = 1
 
 [[main]]
 name = "Contactez-nous"
 url = "/fr/contact"
 weight = 15
-
-[[breadcrumb]]
-name = "Service infonuagique unifié du GC"
-url = "https://gccloudone.ca"
-weight = 1
