@@ -1,9 +1,11 @@
 ---
-title: "Aurore"
-description: "La prestation de services modernes pour tous les Canadiens."
-date: 2024-10-21
+title: "Plateforme fédérale de données scientifiques"
+description: "Vous faites la science, nous faisons le reste"
+date: 2025-02-10
 draft: false
 ---
+
+<link rel="stylesheet" href="https://aurora.gccloudone.alpha.canada.ca/scss/main.css">
 
 ## Commencez à utiliser la plate-forme
 
@@ -71,5 +73,4 @@ draft: false
 heading="Aidez-nous à nous améliorer"
 paragraph="Avez-vous des questions, des suggestions ou des idées d'amélioration ? Partagez vos commentaires pour nous aider à raffiner Aurora et mieux répondre à vos besoins."
 buttonText="Donnez votre avis"
-buttonLink="/contact"
->}}
+buttonLink="/contact" >}}
