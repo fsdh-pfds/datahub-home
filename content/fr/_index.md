@@ -1,7 +1,7 @@
 ---
 title: "Plateforme fédérale de données scientifiques"
 description: "Vous faites la science, nous faisons le reste"
-date: 2025-03-06
+date: 2025-02-10
 draft: false
 ---
 
