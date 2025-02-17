@@ -8,50 +8,103 @@ weight = 1
 identifier = "home"
 
 [[main]]
-name = "Platform"
+name = "Features"
 url = "/platform"
-weight = 5
+weight = 2
 
 [[main]]
-name = "Proposal"
-parent = "Platform"
-url = "/proposal"
+name = "Storage"
+parent = "Features"
+url = "/storage"
 weight = 1
 
 [[main]]
-name = "Vision"
-parent = "Platform"
-url = "/vision"
+name = "Databricks"
+parent = "Features"
+url = "/databricks"
+weight = 2
+
+[[main]]
+name = "Azure App Service"
+parent = "Features"
+url = "/appservice"
+weight = 4
+
+[[main]]
+name = "PostgreSQL"
+parent = "Features"
+url = "/postgresql"
 weight = 3
 
 [[main]]
-name = "Architectural Plan"
-parent = "Platform"
-url = "/architecture"
+name = "External Integrations"
+parent = "Features"
+url = "/integrations"
 weight = 5
 
 [[main]]
-name = "Components"
-parent = "Platform"
-url = "/components"
-weight = 5
+name = "Resources"
+url = "/resources"
+weight = 3
 
 [[main]]
-name = "Community"
-url = "/community"
-weight = 10
+name = "Knowledge Base"
+parent = "Resources"
+url = "knowledge-base"
+weight = 1
+
+[[main]]
+name = "Product Updates"
+parent = "Resources"
+url = "updates"
+weight = 2
 
 [[main]]
 name = "Get involved"
-parent = "Community"
+parent = "Resources"
 url = "/get-involved"
+weight = 3
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[[main]]
+name = "Background"
+parent = "About"
+url = "/background"
 weight = 1
 
 [[main]]
-name = "Rules of Engagement"
-parent = "Community"
-url = "/rules-of-engagement"
-weight = 1
+name = "Roadmap"
+parent = "About"
+url = "/roadmap"
+weight = 2
+
+[[main]]
+name = "News"
+parent = "About"
+url = "/news"
+weight = 3
+
+[[main]]
+name = "Terms and Conditions"
+parent = "About"
+url = "/terms-and-conditions"
+weight = 4
+
+[[main]]
+name = "Privacy"
+parent = "About"
+url = "/privacy"
+weight = 5
+
+[[main]]
+name = "Security"
+parent = "About"
+url = "/security"
+weight = 6
 
 [[main]]
 name = "Contact us"

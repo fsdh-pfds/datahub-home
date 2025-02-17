@@ -5,7 +5,7 @@ date: 2025-02-10
 draft: false
 ---
 
-<link rel="stylesheet" href="https://aurora.gccloudone.alpha.canada.ca/scss/main.css">
+<!-- <link rel="stylesheet" href="https://aurora.gccloudone.alpha.canada.ca/scss/main.css"> -->
 
 ## Start using the platform
 

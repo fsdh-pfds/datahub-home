@@ -1,27 +1,30 @@
 {{ define "main" }}
-  {{ partial "header" . }}
-  <section>
-    <div class="xl:py-900 md:py-800 py-600 hero">
-      <div class="container-xl mx-auto">
-        <article
-          class="sm:py-550 py-450 xl:ps-0 sm:ps-500 ps-450 sm:pe-550 pe-400 bg-primary text-light hero__content">
-          {{ partial "heading" . }}
-        </article>
-      </div>
+{{ partial "header" . }}
+<section>
+  <div class="xl:py-900 md:py-800 py-600 hero">
+    <div class="container-xl mx-auto">
+      <article class="sm:py-550 py-450 xl:ps-0 sm:ps-500 ps-450 sm:pe-550 pe-400 bg-primary text-light hero__content">
+        <gcds-heading tag="h1">{{ .Title }}</gcds-heading>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        <p style="margin-top:1rem;"><gcds-link href="#" variant="light" external>
+            {{ i18n "access_text" | default "Access the FSDH" }}
+          </gcds-link></p>
+      </article>
     </div>
-  </section>
-  <section class="container-xl mx-auto xl:px-0 sm:px-500 px-300">
-    <div class="homepage-content">
-      {{ $content := .Content | replaceRE "<p>(.*?)</p>" "<gcds-text character-limit=\"false\">$1</gcds-text>" }}
-      {{ $content | safeHTML }}
-    </div>
-    <div>
-      {{ range first 10 .Site.RegularPages }}
-        {{ .Render "summary" }}
-      {{ end }}
-    </div>
-  </section>
-  <section class="container-xl mx-auto xl:px-0 sm:px-500 px-300">
-    {{ partial "date-modified" . }}
-  </section>
+  </div>
+</section>
+<section class="container-xl mx-auto xl:px-0 sm:px-500 px-300">
+  <div class="homepage-content">
+    {{ $content := .Content | replaceRE "<p>(.*?)</p>" "<gcds-text character-limit=\"false\">$1</gcds-text>" }}
+    {{ $content | safeHTML }}
+  </div>
+  <div>
+    {{ range first 10 .Site.RegularPages }}
+    {{ .Render "summary" }}
+    {{ end }}
+  </div>
+</section>
+<section class="container-xl mx-auto xl:px-0 sm:px-500 px-300">
+  {{ partial "date-modified" . }}
+</section>
 {{ end }}

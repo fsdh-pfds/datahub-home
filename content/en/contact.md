@@ -7,13 +7,13 @@ sidebar: false
 
 ## How to get involved with our community
 
-Join our growing <gcds-link href="{{< relref "/get-involved" >}}">community</gcds-link> to collaborate with like-minded professionals, and help shape the platform.
+Join our growing <gcds-link href="https://gcxgce.sharepoint.com/teams/10002160" external>GCxchange community</gcds-link> (available within the GC network) to collaborate with like-minded professionals, and help shape the platform.
 
 <hr class="my-500" />
 
 ## Give feedback or request support
 
-Use this form to share your feedback, express interest in using Aurora, and/or ask questions:
+Use this form to share your feedback, express interest in using the FSDH, and/or ask questions:
 
 * <gcds-link external href="https://forms-formulaires.alpha.canada.ca/en/id/cm2jbp567008td1eckzthh4ai">GC Forms</gcds-link>
 
