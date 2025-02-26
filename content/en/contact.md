@@ -1,6 +1,6 @@
 ---
 title: "Contact us"
-date: 2024-10-21
+date: 2025-02-17
 draft: false
 sidebar: false
 ---
@@ -13,12 +13,10 @@ Join our growing <gcds-link href="https://gcxgce.sharepoint.com/teams/10002160" 
 
 ## Give feedback or request support
 
-Use this form to share your feedback, express interest in using the FSDH, and/or ask questions:
-
-* <gcds-link external href="https://forms-formulaires.alpha.canada.ca/en/id/cm2jbp567008td1eckzthh4ai">GC Forms</gcds-link>
+Inside the Federal Science DataHub, you can submit a support request form directly to the FSDH support team. You can use this form to ask questions, get support for issues, or share your feedback about the platform.
 
 <hr class="my-500" />
 
 ## Need more help?
 
-If none of the above options work for you, feel free to reach out to us directly via <gcds-link href="mailto:aurora-aurore@ssc-spc.gc.ca">Email</gcds-link>.
+If neither of the above options work for you, feel free to reach out to us directly via <gcds-link href="#">Email</gcds-link>.

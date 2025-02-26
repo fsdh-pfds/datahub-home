@@ -7,7 +7,7 @@ tags: Tags
 toc: Table of Contents
 share: Share
 
-search_input_placeholder: FSDH
+search_input_placeholder: Canada.ca
 search_no_results: No results for
 search_initial_message: Type something to search..
 search_navigate: to navigate
@@ -19,4 +19,5 @@ components_no_description: No description available.
 components_read_more: Read more about
 components_browse: Browse Components
 
-access_text: Access the FSDH
+access_text: Get started
+fsdh_title: Federal Science DataHub

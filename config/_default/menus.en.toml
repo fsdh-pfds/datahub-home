@@ -8,39 +8,45 @@ weight = 1
 identifier = "home"
 
 [[main]]
-name = "Features"
-url = "/platform"
+name = "Product"
+url = "/product"
 weight = 2
 
 [[main]]
-name = "Storage"
-parent = "Features"
-url = "/storage"
+name = "Overview"
+parent = "Product"
+url = "/product"
 weight = 1
 
 [[main]]
-name = "Databricks"
-parent = "Features"
-url = "/databricks"
+name = "Storage"
+parent = "Product"
+url = "/product/storage"
 weight = 2
 
 [[main]]
-name = "Azure App Service"
-parent = "Features"
-url = "/appservice"
-weight = 4
-
-[[main]]
-name = "PostgreSQL"
-parent = "Features"
-url = "/postgresql"
+name = "Databricks"
+parent = "Product"
+url = "/product/databricks"
 weight = 3
 
 [[main]]
-name = "External Integrations"
-parent = "Features"
-url = "/integrations"
+name = "Azure App Service"
+parent = "Product"
+url = "/product/app-service"
 weight = 5
+
+[[main]]
+name = "PostgreSQL"
+parent = "Product"
+url = "/product/postgresql"
+weight = 4
+
+[[main]]
+name = "External integrations"
+parent = "Product"
+url = "/product/integrations"
+weight = 6
 
 [[main]]
 name = "Resources"
@@ -48,15 +54,15 @@ url = "/resources"
 weight = 3
 
 [[main]]
-name = "Knowledge Base"
+name = "Knowledge base"
 parent = "Resources"
-url = "knowledge-base"
+url = "/knowledge-base"
 weight = 1
 
 [[main]]
-name = "Product Updates"
+name = "Product updates"
 parent = "Resources"
-url = "updates"
+url = "/updates"
 weight = 2
 
 [[main]]
@@ -73,40 +79,46 @@ weight = 4
 [[main]]
 name = "Background"
 parent = "About"
-url = "/background"
+url = "/about"
 weight = 1
 
 [[main]]
-name = "Roadmap"
+name = "Innovation Roadmap"
 parent = "About"
-url = "/roadmap"
+url = "/about/roadmap"
 weight = 2
 
 [[main]]
 name = "News"
 parent = "About"
-url = "/news"
+url = "/about/news"
 weight = 3
 
 [[main]]
-name = "Terms and Conditions"
+name = "Terms and conditions"
 parent = "About"
-url = "/terms-and-conditions"
+url = "/about/terms-and-conditions"
 weight = 4
 
 [[main]]
 name = "Privacy"
 parent = "About"
-url = "/privacy"
+url = "/about/privacy"
 weight = 5
 
 [[main]]
 name = "Security"
 parent = "About"
-url = "/security"
+url = "/about/security"
 weight = 6
 
 [[main]]
 name = "Contact us"
+parent = "About"
 url = "/contact"
-weight = 15
+weight = 7
+
+[[main]]
+name = "Log in"
+url = "https://poc.fsdh-dhsf.science.cloud-nuage.canada.ca/"
+weight = 16

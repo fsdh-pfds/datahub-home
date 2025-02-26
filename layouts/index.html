@@ -1,10 +1,12 @@
 {{ define "main" }}
 {{ partial "header" . }}
 <section>
-  <div class="xl:py-900 md:py-800 py-600 hero">
+  <div class="xl:py-900 md:py-800 py-600 hero"
+    style="background:url(/images/home-hero.jpg) top center no-repeat; background-size: cover;">
     <div class="container-xl mx-auto">
-      <article class="sm:py-550 py-450 xl:ps-0 sm:ps-500 ps-450 sm:pe-550 pe-400 bg-primary text-light hero__content">
-        <gcds-heading tag="h1">{{ .Title }}</gcds-heading>
+      <article class="sm:py-550 py-450 xl:ps-0 sm:ps-500 ps-450 sm:pe-550 pe-400 text-light hero__content"
+        style="background-color:#26374a;">
+        <gcds-heading tag="h1">{{ i18n "fsdh_title" | default "Federal Science Datahub" }}</gcds-heading>
         {{ with .Description }}<p>{{ . }}</p>{{ end }}
         <p style="margin-top:1rem;"><gcds-link href="#" variant="light" external>
             {{ i18n "access_text" | default "Access the FSDH" }}
