@@ -109,7 +109,7 @@ draft: false
   <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr" gap="450" class="hydrated">
     <li class="list-none md:mb-0 mb-500">
   <h3 class="mb-400">Health Canada</h3>
-      <p class="mb-400">"So, I think the bottom line here is that [the Federal Science DataHub] really opens the door to hosting a wide variety of potential applications with many different scopes. The only real limit is what people are capable of building."</p>
+      <p class="mb-400">"I think the bottom line here is that [the Federal Science DataHub] really opens the door to hosting a wide variety of potential applications with many different scopes. The only real limit is what people are capable of building."</p>
     </li>
     <li class="list-none md:mb-0 mb-500">
   <h3 class="mb-400">Agriculture and Agri-Food Canada</h3>

@@ -20,10 +20,10 @@ The FSDH allows you to provision Azure Databricks for your research, enabling re
 
 ## Visual Studio Code Extension
 
-Using the Databricks VS Code extension, you can connect to a Databricks workspace from within VS Code. This allows you to:
+Using the Databricks Visual Studio Code extension, you can connect to a Databricks workspace from within Visual Studio Code. This allows you to:
 
-* Write your code locally in VS Code and run it remotely on a Databricks cluster to leverage cloud computing.
-* Run SQL queries on a Databricks cluster and see the results locally in VS Code.
+* Write your code locally in Visual Studio Code and run it remotely on a Databricks cluster to leverage cloud computing.
+* Run SQL queries on a Databricks cluster and see the results locally in Visual Studio Code.
 * Manage your Databricks clusters.
 
 ## Google APIs and Services
