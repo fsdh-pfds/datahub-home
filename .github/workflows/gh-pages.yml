@@ -40,7 +40,7 @@ jobs:
 
       - name: Build
         env:
-          HUGO_ENVIRONMENT: productio
+          HUGO_ENVIRONMENT: production
         run: hugo --minify
 
       - name: Deploy to GitHub Pages
