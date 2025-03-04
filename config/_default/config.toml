@@ -20,6 +20,14 @@ defaultContentLanguageInSubdir = false
 # generate a robots.txt file
 enableRobotsTXT = true
 
+[Languages]
+    [Languages.en]
+        title = "Federal Science DataHub"
+        weight = 1
+    [Languages.fr]
+        title = "Plateforme fédérale de données scientifiques"
+        weight = 2
+
 ########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorfilename/"

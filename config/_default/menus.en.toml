@@ -72,6 +72,12 @@ url = "/get-involved"
 weight = 3
 
 [[main]]
+name = "GCxchange community"
+parent = "Resources"
+url = "https://gcxgce.sharepoint.com/teams/10002160"
+weight = 4
+
+[[main]]
 name = "About"
 url = "/about"
 weight = 4
