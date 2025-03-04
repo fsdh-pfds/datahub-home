@@ -1,0 +1,17 @@
+<!-- For more information, visit: https://design-system.alpha.canada.ca/en/components/breadcrumbs/ -->
+<gcds-breadcrumbs slot="breadcrumb">
+    {{ if eq .Site.Language.Lang "en" }}
+    <gcds-breadcrumbs-item href="">{{ i18n "fsdh_title" | default "Federal Science DataHub"
+        }}</gcds-breadcrumbs-item>
+    {{ else if eq .Site.Language.Lang "fr" }}
+    <gcds-breadcrumbs-item href="/fr">{{ i18n "fsdh_title" | default "Federal Science DataHub"
+        }}</gcds-breadcrumbs-item>
+    {{ end }}
+    {{ $breadcrumbs := .Site.Menus.breadcrumb }}
+    {{ with index $breadcrumbs 0 }}
+    <gcds-breadcrumbs-item href="{{ .URL }}">{{ .Name }}</gcds-breadcrumbs-item>
+    {{ end }}
+    {{- range after 1 .Ancestors.Reverse }}
+    <gcds-breadcrumbs-item href="{{ .RelPermalink }}">{{ .LinkTitle }}</gcds-breadcrumbs-item>
+    {{- end }}
+</gcds-breadcrumbs>

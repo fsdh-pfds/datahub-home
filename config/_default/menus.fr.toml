@@ -5,43 +5,126 @@
 name = "Plateforme fédérale de données scientifiques"
 url = "/fr"
 weight = 1
-identifier = "acceuil"
+identifier = "accueil"
 
 [[main]]
-name = "Plate-forme"
-url = "/fr/platform"
-weight = 5
+name = "Produit"
+url = "/fr/produit"
+weight = 2
 
 [[main]]
-name = "Proposition"
-parent = "Plate-forme"
-url = "/fr/proposition"
+name = "Survol"
+parent = "Produit"
+url = "/fr/produit"
 weight = 1
 
 [[main]]
-name = "Composants"
-parent = "Plate-forme"
-url = "/fr/components"
+name = "Stockage"
+parent = "Produit"
+url = "/fr/produit/stockage"
+weight = 2
+
+[[main]]
+name = "Databricks"
+parent = "Produit"
+url = "/fr/produit/databricks"
+weight = 3
+
+[[main]]
+name = "Azure App Service"
+parent = "Produit"
+url = "/fr/produit/app-service"
 weight = 5
 
 [[main]]
-name = "Communauté"
-url = "/fr/communaute"
-weight = 10
+name = "PostgreSQL"
+parent = "Produit"
+url = "/fr/produit/postgresql"
+weight = 4
 
 [[main]]
-name = "Participez"
+name = "Intégrations externes"
+parent = "Produit"
+url = "/fr/produit/integrations"
+weight = 6
+
+[[main]]
+name = "Ressources"
+url = "/fr/ressources"
+weight = 3
+
+[[main]]
+name = "Base de connaissances"
+parent = "Ressources"
+url = "/fr/base-de-connaissances"
+weight = 1
+
+[[main]]
+name = "Mises à jour"
+parent = "Ressources"
+url = "/fr/mises-a-jour"
+weight = 2
+
+[[main]]
+name = "Impliquez-vous"
+parent = "Ressources"
 url = "/fr/impliquez-vous"
-parent = "Communauté"
+weight = 3
+
+[[main]]
+name = "Communauté GCéchange"
+parent = "Ressources"
+url = "https://gcxgce.sharepoint.com/teams/10002160/SitePages/fr/Home.aspx"
+weight = 4
+
+[[main]]
+name = "À propos"
+url = "/fr/a-propos"
+weight = 4
+
+[[main]]
+name = "Survol"
+parent = "À propos"
+url = "/fr/a-propos"
 weight = 1
 
 [[main]]
-name = "Règles d'engagement"
-parent = "Communauté"
-url = "/fr/regles-dengagement"
-weight = 1
+name = "Plan d'innovation"
+parent = "À propos"
+url = "/fr/a-propos/plan"
+weight = 2
+
+[[main]]
+name = "Nouvelles"
+parent = "À propos"
+url = "/fr/a-propos/nouvelles"
+weight = 3
+
+[[main]]
+name = "Conditions générales"
+parent = "À propos"
+url = "/fr/a-propos/conditions-generales"
+weight = 4
+
+[[main]]
+name = "Confidentialité"
+parent = "À propos"
+url = "/fr/a-propos/confidentialite"
+weight = 5
+
+[[main]]
+name = "Securité"
+parent = "À propos"
+url = "/fr/a-propos/securite"
+weight = 6
 
 [[main]]
 name = "Contactez-nous"
+parent = "À propos"
 url = "/fr/contact"
-weight = 15
+weight = 7
+
+[[main]]
+name = "Se connecter"
+url = "https://poc.fsdh-dhsf.science.cloud-nuage.canada.ca/"
+weight = 16

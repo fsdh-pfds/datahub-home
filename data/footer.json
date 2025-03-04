@@ -2,15 +2,17 @@
   "en": {
     "heading": "Federal Science DataHub",
     "links": {
-      "Contact us": "/contact",
-      "About us": "/about"
+      "Access FSDH": "https://federal-science-datahub.canada.ca/",
+      "Terms and conditions": "/terms-and-conditions",
+      "Contact us": "/contact"
     }
   },
   "fr": {
     "heading": "Plateforme fédérale de données scientifiques",
     "links": {
-      "Nous contacter": "/fr/contact",
-      "À propos": "/fr/a-propos"
+      "Accéder le PFDS": "https://datahub-scientifique-federal.canada.ca/",
+      "Conditions générales": "/conditions-generales",
+      "Nous contacter": "/fr/contact"
     }
   }
 }

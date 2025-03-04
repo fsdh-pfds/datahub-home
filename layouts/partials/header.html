@@ -1,0 +1,7 @@
+<gcds-header lang="{{ .Lang }}" lang-href="{{ (index .Translations 0).Permalink }}" signature-variant="colour"
+    skip-to-href="#">
+    {{ partial "search" . }}
+    {{ partial "top-navigation" . }}
+    {{ partial "breadcrumb" . }}
+</gcds-header>
+{{ partial "alert" . }}

@@ -8,52 +8,122 @@ weight = 1
 identifier = "home"
 
 [[main]]
-name = "Platform"
-url = "/platform"
-weight = 5
+name = "Product"
+url = "/product"
+weight = 2
 
 [[main]]
-name = "Proposal"
-parent = "Platform"
-url = "/proposal"
+name = "Overview"
+parent = "Product"
+url = "/product"
 weight = 1
 
 [[main]]
-name = "Vision"
-parent = "Platform"
-url = "/vision"
+name = "Storage"
+parent = "Product"
+url = "/product/storage"
+weight = 2
+
+[[main]]
+name = "Databricks"
+parent = "Product"
+url = "/product/databricks"
 weight = 3
 
 [[main]]
-name = "Architectural Plan"
-parent = "Platform"
-url = "/architecture"
+name = "Azure App Service"
+parent = "Product"
+url = "/product/app-service"
 weight = 5
 
 [[main]]
-name = "Components"
-parent = "Platform"
-url = "/components"
-weight = 5
+name = "PostgreSQL"
+parent = "Product"
+url = "/product/postgresql"
+weight = 4
 
 [[main]]
-name = "Community"
-url = "/community"
-weight = 10
+name = "External integrations"
+parent = "Product"
+url = "/product/integrations"
+weight = 6
+
+[[main]]
+name = "Resources"
+url = "/resources"
+weight = 3
+
+[[main]]
+name = "Knowledge base"
+parent = "Resources"
+url = "/knowledge-base"
+weight = 1
+
+[[main]]
+name = "Product updates"
+parent = "Resources"
+url = "/updates"
+weight = 2
 
 [[main]]
 name = "Get involved"
-parent = "Community"
+parent = "Resources"
 url = "/get-involved"
+weight = 3
+
+[[main]]
+name = "GCxchange community"
+parent = "Resources"
+url = "https://gcxgce.sharepoint.com/teams/10002160"
+weight = 4
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[[main]]
+name = "Background"
+parent = "About"
+url = "/about"
 weight = 1
 
 [[main]]
-name = "Rules of Engagement"
-parent = "Community"
-url = "/rules-of-engagement"
-weight = 1
+name = "Innovation Roadmap"
+parent = "About"
+url = "/about/roadmap"
+weight = 2
+
+[[main]]
+name = "News"
+parent = "About"
+url = "/about/news"
+weight = 3
+
+[[main]]
+name = "Terms and conditions"
+parent = "About"
+url = "/about/terms-and-conditions"
+weight = 4
+
+[[main]]
+name = "Privacy"
+parent = "About"
+url = "/about/privacy"
+weight = 5
+
+[[main]]
+name = "Security"
+parent = "About"
+url = "/about/security"
+weight = 6
 
 [[main]]
 name = "Contact us"
+parent = "About"
 url = "/contact"
-weight = 15
+weight = 7
+
+name = "Log in"
+url = "https://poc.fsdh-dhsf.science.cloud-nuage.canada.ca/"
+weight = 16

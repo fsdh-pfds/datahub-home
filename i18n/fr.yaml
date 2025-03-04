@@ -7,7 +7,7 @@ tags: Étiquettes
 toc: Table des matières
 share: Partager
 
-search_input_placeholder: PFDS
+search_input_placeholder: Canada.ca
 search_no_results: Aucun résultat pour
 search_initial_message: Tapez quelque chose pour rechercher...
 search_navigate: pour naviguer
@@ -18,3 +18,6 @@ components_heading: Composant vedette
 components_no_description: Aucune description disponible.
 components_read_more: En savoir plus sur
 components_browse: Parcourir les composants
+
+access_text: Commencer
+fsdh_title: Plateforme fédérale de données scientifiques
