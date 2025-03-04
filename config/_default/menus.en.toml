@@ -124,7 +124,6 @@ parent = "About"
 url = "/contact"
 weight = 7
 
-[[main]]
 name = "Log in"
 url = "https://poc.fsdh-dhsf.science.cloud-nuage.canada.ca/"
 weight = 16
