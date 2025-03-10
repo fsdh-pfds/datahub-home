@@ -3,9 +3,9 @@ title: "Product"
 sidebar: false
 ---
 
-Influenced by the federal science community from ​day one, the Federal Science DataHub (FSDH) is a powerful and secure cloud-based enterprise data solution that revolutionizes data storage, analysis and collaboration.  
+Influenced by the federal science community from ​day one, the Federal Science DataHub (FSDH), a powerful and secure cloud-based enterprise data solution that revolutionizes data storage, analysis and collaboration.
 
-As a vetted and approved platform that is preconfigured for cross-departmental collaboration, the FSDH is ready to fuel discoveries and accelerate GC science. It is a space where you can focus on your science, while we do the rest.
+As a GC-approved platform that is preconfigured for cross-departmental collaboration, the FSDH is ready to fuel discoveries and accelerate GC science. It is a space where you can focus on your science, while we do the rest. 
 
 The FSDH empowers knowledge sharing and collaboration with scientists and researchers across departments and across the country able to work together in one platform. It offers:
 
@@ -17,7 +17,7 @@ The FSDH empowers knowledge sharing and collaboration with scientists and resear
     <li> IT autonomy in a secure environment. </li>
 </ul>
 
-The FSDH is currently for unclassified data. Accommodating data and information up to Protected B is on our 2025-26 roadmap.
+The FSDH can currently only be used for unclassified data. Accommodating data and information up to Protected B is on our 2025-26 roadmap.
 
 ## Who uses the FSDH?
 

@@ -9,7 +9,7 @@ draft: false
 
 <article class="py-750">
   <h2 class="mb-400">What is the Federal Science DataHub?</h2>
-  <p class="mb-400">The Federal Science DataHub (FSDH) is a game-changer, enabling scientists and researchers across departments or across the country to work together in one platform to tackle Canada’s most pressing scientific challenges.</p>
+  <p class="mb-400">The Federal Science DataHub (FSDH) is a game-changing GC solution that enables scientists and researchers across departments or across the country to work together in one platform to tackle Canada’s most pressing scientific challenges.</p>
   <p class="mb-400">Influenced by the federal science community from day one, the FSDH is a powerful and secure enterprise data solution that revolutionizes data storage, analysis and collaboration across the Government of Canada.</p>
   <gcds-link href="/product/" class="hydrated">Learn more about the FSDH</gcds-link>
 </article>
