@@ -1,7 +1,7 @@
 <!-- For more information, visit: https://design-system.alpha.canada.ca/en/components/breadcrumbs/ -->
 <gcds-breadcrumbs slot="breadcrumb">
     {{ if eq .Site.Language.Lang "en" }}
-    <gcds-breadcrumbs-item href="">{{ i18n "fsdh_title" | default "Federal Science DataHub"
+    <gcds-breadcrumbs-item href="/">{{ i18n "fsdh_title" | default "Federal Science DataHub"
         }}</gcds-breadcrumbs-item>
     {{ else if eq .Site.Language.Lang "fr" }}
     <gcds-breadcrumbs-item href="/fr">{{ i18n "fsdh_title" | default "Federal Science DataHub"

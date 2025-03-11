@@ -1,79 +1,69 @@
 <!doctype html>
 <html dir="ltr" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
 
-    <title>
-      {{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}
-    </title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
 
-    <link rel="icon" href="{{ "/favicon.ico" | relURL }}" type="image/x-icon" />
-    
-    {{ if .Site.Params.enableGoogleAnalytics }}
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-13XCHV89Q1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-13XCHV89Q1');</script>
-    {{ end }}
+  <title>
+    {{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+  </title>
 
-    <!-- Icons Font Awesome -->
-    <link
-      rel="preload"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      as="style"
-      crossorigin="anonymous" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      crossorigin="anonymous" />
+  <link rel="icon" href="{{ " /favicon.ico" | relURL }}" type="image/x-icon" />
 
-    <!-- GC Design System Utility -->
-    <link
-      rel="stylesheet"
-      href="https://design-system.alpha.canada.ca/gcds-utility.min.css" />
+  {{ if .Site.Params.enableGoogleAnalytics }}
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-13XCHV89Q1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-13XCHV89Q1');</script>
+  {{ end }}
 
-    <!-- GC Design System -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.26.3/dist/gcds/gcds.css" />
-    <script
-      async
-      type="module"
-      src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.26.3/dist/gcds/gcds.esm.js"></script>
-    <script
-      async
-      nomodule
-      src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.26.3/dist/gcds/gcds.js"></script>
+  <!-- Icons Font Awesome -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous" />
+
+  <!-- GC Design System Utility -->
+  <link rel="stylesheet" href="https://design-system.alpha.canada.ca/gcds-utility.min.css" />
+
+  <!-- GC Design System -->
+  <link rel="stylesheet"
+    href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.32.0/dist/gcds/gcds.css">
+  <script type="module"
+    src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.32.0/dist/gcds/gcds.esm.js"></script>
+  <script nomodule
+    src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.32.0/dist/gcds/gcds.js"></script>
 
 
 
-    {{ $styles := resources.Get "scss/main.scss" | resources.ToCSS }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" />
+  {{ $styles := resources.Get "scss/main.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" />
 
-    <style>
-      html {
-        font-size: 16px;
-      }
-      body {
-        font-size: var(--gcds-font-sizes-text);
-        line-height: var(--gcds-line-heights-text);
-        color: var(--gcds-color-grayscale-1000);
-        font-family: var(--gcds-font-families-body), sans-serif;
-        margin: 0;
-        animation: fade 0.05s forwards ease-in-out;
-      }
-    </style>
-  </head>
-  <body style="margin: 0">
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
-    {{ partial "footer" . }}
-  </body>
+  <style>
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      font-size: var(--gcds-font-sizes-text);
+      line-height: var(--gcds-line-heights-text);
+      color: var(--gcds-color-grayscale-1000);
+      font-family: var(--gcds-font-families-body), sans-serif;
+      margin: 0;
+      animation: fade 0.05s forwards ease-in-out;
+    }
+  </style>
+</head>
+
+<body style="margin: 0">
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer" . }}
+</body>
+
 </html>

@@ -5,8 +5,6 @@ date: 2025-02-10
 draft: false
 ---
 
-<link rel="stylesheet" href="https://aurora.gccloudone.alpha.canada.ca/scss/main.css">
-
 <article class="py-750">
   <h2 class="mb-400">Qu'est-ce que la Plateforme fédérale de données scientifiques?</h2>
   <p class="mb-400">La Plateforme fédérale de données scientifiques (PFDS) change la donne en permettant aux scientifiques et aux chercheurs de tous les ministères ou de tout le pays de travailler ensemble sur une même plateforme pour relever les défis scientifiques les plus urgents du Canada.</p>
