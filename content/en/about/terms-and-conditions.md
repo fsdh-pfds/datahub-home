@@ -13,20 +13,6 @@ translationKey: "terms-and-conditions"
 
 July 2024 \| Version 1.0
 
-<!-- +-------------------------------+----------------------+----------------------+
-| ###### Document Control Sheet |                      |                      |
-+===============================+======================+======================+
-| ###### Name                   | ###### Subject       | ###### Date          |
-+-------------------------------+----------------------+----------------------+
-| ###### Irum Maqsood           | ###### Initial Draft | ###### July 31, 2024 |
-+-------------------------------+----------------------+----------------------+
-| ###### Line Lafrance          | ###### Comments      | ###### August 08, 2024 |
-+-------------------------------+----------------------+----------------------+
-| ###### Irum Maqsood           | ###### Addressed comments and added sections related to roles. | August 08, 2024 |
-+-------------------------------+----------------------+----------------------+
-| ######                        | ######               | ######               |
-+-------------------------------+----------------------+----------------------+ -->
-
 ###### 
 
 ## Federal Science DataHub
@@ -41,7 +27,7 @@ The Terms and Conditions apply to the individual Participants use of of FSDH. Th
 
 The Federal Science Datahub is an initiative led by the Data Solutions Team in in SSC's Science Program. It provides rapid access to scalable data storage in the cloud, analytics toolset, management, storage, sharing, and collaboration capabilities to federal scientists. By using the FSDH service, you agree to the terms set out herein.
 
-Users of FSDH are required to conform to the following criteria :
+Users of FSDH are required to conform to the following criteria:
 
 1.  **Security classification:** The FSDH environment workspaces are authorized for Unclassified use. “Unclassified” denotes non-sensitive data and information that carries no injury to personal, industry, or government interests if released to the public. It is each workspace owner's responsibility to ensure all data or information in their workspace is unclassified before uploading it to FSDH and while using it in FSDH. Please refer to the following important information security guidelines: 
 
