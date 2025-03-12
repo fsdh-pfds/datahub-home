@@ -5,7 +5,7 @@ date: 2025-02-10
 draft: false
 ---
 
-<article class="pb-750">
+<article class="pb-750 pt-400">
   <h2 class="mb-400">What is the Federal Science DataHub?</h2>
   <p class="mb-400">The Federal Science DataHub (FSDH) is a game-changing GC solution that enables scientists and researchers across departments or across the country to work together in one platform to tackle Canada’s most pressing scientific challenges.</p>
   <p class="mb-400">Influenced by the federal science community from day one, the FSDH is a powerful and secure enterprise data solution that revolutionizes data storage, analysis and collaboration across the Government of Canada.</p>
@@ -14,7 +14,7 @@ draft: false
 
 <article class="py-500 bg-primary text-light bg-full-width" style="background-color:#26374a;">
   <h2 class="mb-400">Preconfigured data solutions for scientists and researchers</h2>
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr 1fr" gap="450" class="hydrated">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr 1fr" gap="450" class="hydrated mb-500">
     <li class="list-none md:mb-0 mb-500">
       <h3 class="mb-400">Storage</h3>
       <p class="mb-400">Secure, scalable and shareable storage for unclassified data and information.</p>
@@ -39,8 +39,8 @@ draft: false
 </article>
 
 <article class="py-450">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="1fr 5fr" gap="450" class="hydrated">
-    <li class="list-none md:mb-0 mb-500">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="2fr 9fr" gap="450" class="hydrated">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/efficiency.svg" alt="Efficiency" />
     </li>
     <li class="list-none md:mb-0 mb-500">
@@ -55,7 +55,7 @@ draft: false
 </article>
 
 <article class="py-450 bg-light bg-full-width">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="5fr 1fr" gap="450" class="hydrated">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="9fr 2fr" gap="450" class="hydrated">
     <li class="list-none md:mb-0 mb-500">
       <h2 class="mb-400">Accelerate discovery with machine learning and automation</h2>
       <ul class="list-disc mb-300">
@@ -64,15 +64,15 @@ draft: false
         <li>Automate and expedite time-consuming and repetitive tasks </li>
       </ul>
     </li>
-    <li class="list-none md:mb-0 mb-500">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/machine-learning.svg" alt="Machine Learning" />
     </li>
   </gcds-grid>
 </article>
 
 <article class="py-450">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="1fr 5fr" gap="450" class="hydrated">
-    <li class="list-none md:mb-0 mb-500">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="2fr 9fr" gap="450" class="hydrated">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/collaboration.svg" alt="Collaboration" />
     </li>
     <li class="list-none md:mb-0 mb-500">
@@ -87,7 +87,7 @@ draft: false
 </article>
 
 <article class="py-450 bg-light bg-full-width">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="5fr 1fr" gap="450" class="hydrated">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="9fr 2fr" gap="450" class="hydrated">
     <li class="list-none md:mb-0 mb-500">
       <h2 class="mb-400">Bringing science within reach with enhanced data visualization and communication</h2>
       <ul class="list-disc mb-300">
@@ -96,7 +96,7 @@ draft: false
         <li>Distill complex data into user-friendly dashboards and visualizations</li>
       </ul>
     </li>
-    <li class="list-none md:mb-0 mb-500">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/data-visualization.svg" alt="Data Visualization" />
     </li>
   </gcds-grid>

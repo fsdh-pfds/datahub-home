@@ -1,6 +1,10 @@
 ---
 title: "Product"
+date: 2025-02-17
+draft: false
 sidebar: false
+showToc: false
+translationKey: "product"
 ---
 
 Influenced by the federal science community from ​day one, the Federal Science DataHub (FSDH), a powerful and secure cloud-based enterprise data solution that revolutionizes data storage, analysis and collaboration.
