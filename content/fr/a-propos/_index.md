@@ -23,6 +23,8 @@ Le développement de la PFDS repose sur les principes directeurs de l'entreprise
 
 Réunies chaque mois au sein du Groupe de travail sur les solutions de données pour la science (GTDDS), une quarantaine de personnes issues de 16 ASDS ont délibéré et convenu du mandat, des objectifs, des domaines prioritaires et des caractéristiques de la première itération de ce qui est aujourd'hui la Plateforme fédérale de données scientifiques (PFDS).
 
+<img src="/images/fsdh/fr-obejctives.jpg" alt="Mandat de la Plateforme fédérale de données scientifiques" />
+
 Deux preuves de concept (PoC) réalisées sur deux ans ont permis de s'assurer que les besoins des ASDS restaient au premier plan du développement et de l'évolution.
 
 <ul class="list-disc mb-300">
