@@ -54,22 +54,10 @@ url = "/resources"
 weight = 3
 
 [[main]]
-name = "Knowledge base"
-parent = "Resources"
-url = "/knowledge-base"
-weight = 1
-
-[[main]]
 name = "Product updates"
 parent = "Resources"
-url = "/updates"
+url = "https://github.com/ssc-sp/datahub-portal/releases"
 weight = 2
-
-[[main]]
-name = "Get involved"
-parent = "Resources"
-url = "/get-involved"
-weight = 3
 
 [[main]]
 name = "GCxchange community"
@@ -93,12 +81,6 @@ name = "Innovation Roadmap"
 parent = "About"
 url = "/about/roadmap"
 weight = 2
-
-[[main]]
-name = "News"
-parent = "About"
-url = "/about/news"
-weight = 3
 
 [[main]]
 name = "Terms and conditions"

@@ -1,19 +1,28 @@
 {{ define "main" }}
 {{ partial "header" . }}
 <section>
-  <div class="xl:py-900 md:py-800 py-600 hero"
+  <div class="xl:py-1200 md:py-1000 py-600 hero"
     style="background:url(https://design-system.alpha.canada.ca/images/common/home/home-hero.jpg) top center no-repeat; background-size: cover;">
     <div class="container-xl mx-auto">
       <article class="sm:py-550 py-450 xl:ps-0 sm:ps-500 ps-450 sm:pe-550 pe-400 text-light hero__content"
         style="background-color:#26374a;">
         <gcds-heading tag="h1">{{ i18n "fsdh_title" | default "Federal Science Datahub" }}</gcds-heading>
-        <p style="margin-top:1rem;">
-          <gcds-link href="#" variant="light" external>
+        <p>
+          {{ if eq .Site.Language.Lang "en" }}
+          <gcds-link href="https://federal-science-datahub.canada.ca/" variant="light">
             {{ i18n "access_text" | default "Access the FSDH" }}
           </gcds-link>
-          <gcds-link href="#" variant="light" external style="margin-left:2rem">
+          <gcds-link href="/contact" variant="light" style="margin-left:2rem">
             {{ i18n "demo_text" | default "Request a Demo" }}
           </gcds-link>
+          {{ else if eq .Site.Language.Lang "fr" }}
+          <gcds-link href="https://datahub-scientifique-federal.canada.ca/" variant="light">
+            {{ i18n "access_text" | default "Access the FSDH" }}
+          </gcds-link>
+          <gcds-link href="/fr/contact" variant="light" style="margin-left:2rem">
+            {{ i18n "demo_text" | default "Request a Demo" }}
+          </gcds-link>
+          {{ end }}
         </p>
       </article>
     </div>

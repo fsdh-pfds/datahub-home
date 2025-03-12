@@ -1,0 +1,4 @@
+<!-- For more information, visit: https://design-system.alpha.canada.ca/en/components/footer/ -->
+<gcds-footer lang="{{ .Lang }}" display="full" contextual-heading="{{ (index site.Data.footer .Lang).heading }}"
+    contextual-links="{{ (index site.Data.footer .Lang).links | jsonify }}">
+</gcds-footer>

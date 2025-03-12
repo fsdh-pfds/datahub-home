@@ -5,7 +5,7 @@ date: 2025-02-10
 draft: false
 ---
 
-<article class="py-750">
+<article class="py-750 pt-400">
   <h2 class="mb-400">Qu'est-ce que la Plateforme fédérale de données scientifiques?</h2>
   <p class="mb-400">La Plateforme fédérale de données scientifiques (PFDS) change la donne en permettant aux scientifiques et aux chercheurs de tous les ministères ou de tout le pays de travailler ensemble sur une même plateforme pour relever les défis scientifiques les plus urgents du Canada.</p>
   <p class="mb-400">Influencée dès le départ par la communauté scientifique fédérale, la PFDS est une solution de données d'entreprise puissante et sécurisée qui révolutionne le stockage, l'analyse et la collaboration des données au sein du gouvernement du Canada.</p>
@@ -14,7 +14,7 @@ draft: false
 
 <article class="py-500 bg-primary text-light bg-full-width" style="background-color:#26374a;">
   <h2 class="mb-400">Solutions de données préconfigurées pour les scientifiques et les chercheurs</h2>
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr 1fr" gap="450" class="hydrated">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 1fr" columns-desktop="1fr 1fr 1fr 1fr" gap="450" class="hydrated mb-500">
     <li class="list-none md:mb-0 mb-500">
       <h3 class="mb-400">Stockage</h3>
       <p class="mb-400">Stockage sécurisé, évolutif et partageable pour les données et informations non classifiées.</p>
@@ -39,8 +39,8 @@ draft: false
 </article>
 
 <article class="py-450">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="1fr 5fr" gap="450" class="hydrated">
-    <li class="list-none md:mb-0 mb-500">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="2fr 9fr" gap="450" class="hydrated">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/efficiency.svg" alt="Efficacité" />
     </li>
     <li class="list-none md:mb-0 mb-500">
@@ -55,7 +55,7 @@ draft: false
 </article>
 
 <article class="py-450 bg-light bg-full-width">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="5fr 1fr" gap="450" class="hydrated">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="9fr 2fr" gap="450" class="hydrated">
     <li class="list-none md:mb-0 mb-500">
       <h2 class="mb-400">Accélérer la découverte grâce à l'apprentissage automatique et à l'automatisation</h2>
       <ul class="list-disc mb-300">
@@ -64,15 +64,15 @@ draft: false
         <li>Automatiser et accélérer les tâches répétitives et longues</li>
       </ul>
     </li>
-    <li class="list-none md:mb-0 mb-500">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/machine-learning.svg" alt="Apprentissage automatique" />
     </li>
   </gcds-grid>
 </article>
 
 <article class="py-450">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="1fr 5fr" gap="450" class="hydrated">
-    <li class="list-none md:mb-0 mb-500">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="1fr 4fr" columns-desktop="2fr 9fr" gap="450" class="hydrated">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/collaboration.svg" alt="Collaboration" />
     </li>
     <li class="list-none md:mb-0 mb-500">
@@ -87,7 +87,7 @@ draft: false
 </article>
 
 <article class="py-450 bg-light bg-full-width">
-  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="5fr 1fr" gap="450" class="hydrated">
+  <gcds-grid tag="ul" columns="1fr" columns-tablet="4fr 1fr" columns-desktop="9fr 2fr" gap="450" class="hydrated">
     <li class="list-none md:mb-0 mb-500">
       <h2 class="mb-400">Rendre la science accessible grâce à la visualisation et à la communication des données</h2>
       <ul class="list-disc mb-300">
@@ -96,7 +96,7 @@ draft: false
         <li>Transformer des données complexes en tableaux de bord et visualisations faciles à utiliser</li>
       </ul>
     </li>
-    <li class="list-none md:mb-0 mb-500">
+    <li class="list-none md:mb-0 my-800">
       <img src="/images/fsdh/data-visualization.svg" alt="Visualisation des données" />
     </li>
   </gcds-grid>

@@ -54,22 +54,10 @@ url = "/fr/ressources"
 weight = 3
 
 [[main]]
-name = "Base de connaissances"
-parent = "Ressources"
-url = "/fr/base-de-connaissances"
-weight = 1
-
-[[main]]
 name = "Mises à jour"
 parent = "Ressources"
-url = "/fr/mises-a-jour"
+url = "https://github.com/ssc-sp/datahub-portal/releases"
 weight = 2
-
-[[main]]
-name = "Impliquez-vous"
-parent = "Ressources"
-url = "/fr/impliquez-vous"
-weight = 3
 
 [[main]]
 name = "Communauté GCéchange"
@@ -93,12 +81,6 @@ name = "Plan d'innovation"
 parent = "À propos"
 url = "/fr/a-propos/plan"
 weight = 2
-
-[[main]]
-name = "Nouvelles"
-parent = "À propos"
-url = "/fr/a-propos/nouvelles"
-weight = 3
 
 [[main]]
 name = "Conditions générales"

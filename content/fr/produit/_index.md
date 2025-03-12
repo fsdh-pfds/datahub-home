@@ -1,6 +1,10 @@
 ---
 title: "Produit"
+date: 2025-02-17
+draft: false
 sidebar: false
+showToc: false
+translationKey: "product"
 ---
 
 Influencée par la communauté scientifique fédérale dès le premier jour, la Plateforme fédérale de données scientifique (PFDS) est une solution de données d'entreprise puissante et sécurisée basée sur le cloud qui révolutionne le stockage, l'analyse et la collaboration des données.
