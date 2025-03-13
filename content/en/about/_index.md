@@ -23,7 +23,7 @@ Development of the FSDH is grounded in the guiding principles of enterprise:
 
 Coming together monthly as the Data Solutions for Science Working Group (DSSWG), approximately 40 people from 16 SBDAs deliberated and agreed upon the mandate, objectives, priority areas and features of the first iteration of what is now the Federal Science DataHub (FSDH).
 
-<img src="/images/fsdh/fsdh-mandate-objectives.png" alt="Mandate for the Federal Science DataHub" />
+<img src="/images/fsdh/fsdh-mandate-objectives.jpg" alt="Mandate for the Federal Science DataHub" />
 
 Two proofs of concept (PoC) over the course of two years have ensured the needs of SBDAs remained at the forefront of development and evolution.
 

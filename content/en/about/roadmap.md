@@ -18,7 +18,7 @@ Building on the concept of co-designing and implementing an enterprise solution 
     <li>External collaborator access </li>
 </ul>
 
-<img src="/images/fsdh/FSDH-innovation-roadmap.png" alt="Innovation Roadmap" />
+<img src="/images/fsdh/FSDH-innovation-roadmap.jpg" alt="Innovation Roadmap" />
 
 Part of our innovation roadmap also includes a section on activities focused on consulting and engaging with involving the SBDA community and lists a series of events that are meant to all the FSDH team to further engage with the SBDA community to continue discussions around identifying and prioritizeing features and functionality in the future for integration into the platform.
 
