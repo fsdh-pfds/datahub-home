@@ -108,5 +108,5 @@ weight = 7
 
 [[main]]
 name = "Se connecter"
-url = "https://poc.fsdh-dhsf.science.cloud-nuage.canada.ca/"
+url = "https://datahub-scientifique-federal.canada.ca/"
 weight = 16
