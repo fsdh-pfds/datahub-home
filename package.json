@@ -1,9 +1,9 @@
 {
-  "name": "aurora",
-  "description": "Documentation for GC Cloud One: Aurora",
+  "name": "fsdh",
+  "description": "Documentation for FSDH",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Aurora",
+  "author": "fsdh",
   "scripts": {
     "dev": "hugo server",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
