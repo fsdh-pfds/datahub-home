@@ -10,5 +10,8 @@
     "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
     "lint": "markdownlint 'content/**/*.md' --ignore node_modules",
     "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
   }
 }
