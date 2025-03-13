@@ -1,50 +1,41 @@
----
 name: Lint
 
-on:
-  push: {}
-  pull_request: {}
-  workflow_dispatch:
-
-permissions: read-all
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
+  lint:
     name: Lint
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Restore super-linter cache
+      - name: Cache Docker image
         uses: actions/cache@v3
+        id: cache
         with:
-          path: /tmp/super_linter_image.tar
-          key: ${{ runner.os }}-super-linter-${{ hashFiles('docker-image-version.txt') }}
-          retention-days: 7
+          path: image.tar
+          key: docker-image-${{ runner.os }}-super-linter-v7.1.0
 
-      - name: Load super-linter image from cache
-        run: |
-          if [ -f /tmp/super_linter_image.tar ]; then
-            docker load -i /tmp/super_linter_image.tar
-          fi
+      - name: Load Docker image from cache
+        if: steps.cache.outputs.cache-hit == 'true'
+        run: docker load < image.tar
+        
+      - name: Save Docker image
+        run: docker save ghcr.io/super-linter/super-linter:v7.1.0 > image.tar
 
-      - name: Ensure super-linter image is cached
-        run: |
-          if ! docker images | grep -q "super-linter/super-linter\s*7.1.0"; then
-            docker pull super-linter/super-linter:7.1.0
-          fi
-          docker save super-linter/super-linter:7.1.0 -o /tmp/super_linter_image.tar
-
-      - name: Run Super-linter
-        uses: super-linter/super-linter@v7.1.0
+      - name: Super-linter
+        uses: super-linter/super-linter@b92721f792f381cedc002ecdbb9847a15ece5bb8 # v7.1.0
+        with:
+          tag: v7.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_ALL_CODEBASE: false
-          VALIDATE_CHECKOV: false
-          VALIDATE_JSCPD: false
-          VALIDATE_JSON_PRETTIER: false
-          VALIDATE_YAML_PRETTIER: false
-          SUPPRESS_POSSUM: true
+          # Add any other environment variables you’re using
+
