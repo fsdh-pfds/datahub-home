@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           fetch-depth: 0
 
@@ -23,12 +23,20 @@ jobs:
         with:
           path: /tmp/super_linter_image.tar
           key: ${{ runner.os }}-super-linter-${{ hashFiles('docker-image-version.txt') }}
-      
+          retention-days: 7
+
       - name: Load super-linter image from cache
         run: |
           if [ -f /tmp/super_linter_image.tar ]; then
             docker load -i /tmp/super_linter_image.tar
           fi
+
+      - name: Ensure super-linter image is cached
+        run: |
+          if ! docker images | grep -q "super-linter/super-linter\s*7.1.0"; then
+            docker pull super-linter/super-linter:7.1.0
+          fi
+          docker save super-linter/super-linter:7.1.0 -o /tmp/super_linter_image.tar
 
       - name: Run Super-linter
         uses: super-linter/super-linter@v7.1.0
@@ -40,6 +48,3 @@ jobs:
           VALIDATE_JSON_PRETTIER: false
           VALIDATE_YAML_PRETTIER: false
           SUPPRESS_POSSUM: true
-
-      - name: Save super-linter image to cache
-        run: docker save super-linter/super-linter:7.1.0 -o /tmp/super_linter_image.tar
