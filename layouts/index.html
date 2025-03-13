@@ -2,7 +2,7 @@
 {{ partial "header" . }}
 <section>
   <div class="xl:py-1200 md:py-1000 py-600 hero"
-    style="background:url(https://design-system.alpha.canada.ca/images/common/home/home-hero.jpg) top center no-repeat; background-size: cover;">
+    style="background:url(/images/banner4.jpg) center center no-repeat; background-size: cover;">
     <div class="container-xl mx-auto">
       <article class="sm:py-550 py-450 xl:ps-0 sm:ps-500 ps-450 sm:pe-550 pe-400 text-light hero__content"
         style="background-color:#26374a;">
@@ -12,14 +12,16 @@
           <gcds-link href="https://federal-science-datahub.canada.ca/" variant="light">
             {{ i18n "access_text" | default "Access the FSDH" }}
           </gcds-link>
-          <gcds-link href="/contact" variant="light" style="margin-left:2rem">
+          <gcds-link href="https://forms-formulaires.alpha.canada.ca/en/id/cm7xkq8ah0004vl69u4wogwqt" variant="light"
+            style="margin-left:2rem">
             {{ i18n "demo_text" | default "Request a Demo" }}
           </gcds-link>
           {{ else if eq .Site.Language.Lang "fr" }}
           <gcds-link href="https://datahub-scientifique-federal.canada.ca/" variant="light">
             {{ i18n "access_text" | default "Access the FSDH" }}
           </gcds-link>
-          <gcds-link href="/fr/contact" variant="light" style="margin-left:2rem">
+          <gcds-link href="https://forms-formulaires.alpha.canada.ca/fr/id/cm7xkq8ah0004vl69u4wogwqt" variant="light"
+            style="margin-left:2rem">
             {{ i18n "demo_text" | default "Request a Demo" }}
           </gcds-link>
           {{ end }}

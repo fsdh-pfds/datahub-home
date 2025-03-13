@@ -18,6 +18,8 @@ S'appuyant sur le concept de co-conception et de mise en œuvre d'une solution d
     <li>Accès des collaborateurs externes </li>
 </ul>
 
+<img src="/images/fsdh/fr-innovation-road.jpg" alt="Plan d'innovation" />
+
 Une partie de notre plan d'innovation comprend également une section sur les activités de consultation et d'engagement avec la communauté des MOVS et répertorie une série d'événements destinés à permettre à l'équipe de la PFDS de s'engager davantage avec la communauté des MOVS pour poursuivre les discussions sur l'identification et la priorisation des caractéristiques et des fonctionnalités à intégrer dans la plateforme à l'avenir.
 
 Le plan d'innovation reste un document évolutif qui est mis à jour en fonction des priorités changeantes des MOVS et des technologies émergentes.
