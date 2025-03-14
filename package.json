@@ -1,14 +1,18 @@
 {
-  "name": "aurora",
-  "description": "Documentation for GC Cloud One: Aurora",
+  "name": "fsdh",
+  "description": "Documentation for FSDH",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Aurora",
+  "author": "fsdh",
   "scripts": {
     "dev": "hugo server",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
     "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
     "lint": "markdownlint 'content/**/*.md' --ignore node_modules",
-    "format": "prettier --config .prettierrc-hugo --write ."
+    "format": "npx prettier --config .prettierrc-hugo --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-go-template": "0.0.15"
   }
 }
