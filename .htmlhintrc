@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": ["layouts/partials/**/*.html"],
+      "rules": {
+        "doctype-first": false
+      }
+    }
+  ]
+}
