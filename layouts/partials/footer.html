@@ -3,25 +3,29 @@
   lang="{{ .Lang }}"
   display="full"
   contextual-heading="{{ (index site.Data.footer .Lang).heading }}"
-  contextual-links="{{ (index site.Data.footer .Lang).links | jsonify }}">
+  contextual-links="{{ (index site.Data.footer .Lang).links | jsonify }}"
+>
 </gcds-footer>
 {{ if .Site.Params.enableGoogleAnalytics }}
-  <!-- Google Analytics -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-13XCHV89Q1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-13XCHV89Q1");
-  </script>
+<!-- Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-13XCHV89Q1"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-13XCHV89Q1");
+</script>
 {{ end }}
 <script
   type="module"
-  src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.32.0/dist/gcds/gcds.esm.js"></script>
+  src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.32.0/dist/gcds/gcds.esm.js"
+></script>
 <script
   nomodule
-  src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.32.0/dist/gcds/gcds.js"></script>
+  src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.32.0/dist/gcds/gcds.js"
+></script>
